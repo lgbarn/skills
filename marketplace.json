@@ -1,0 +1,35 @@
+{
+  "name": "lgbarn-skills",
+  "owner": {
+    "name": "Luther Barnum",
+    "email": "luther.barnum@gmail.com"
+  },
+  "metadata": {
+    "description": "Luther Barnum's agent skills for trading indicators and Python bots",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "trading-skills",
+      "description": "Trading indicator generators for TradingView and NinjaTrader, plus Python trading bots for NQ futures",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./indicator-generator",
+        "./python-trading-bot",
+        "./ci-cd-setup"
+      ]
+    },
+    {
+      "name": "utility-skills",
+      "description": "Utility skills for changelog generation, skill creation, and team sharing",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./changelog-generator",
+        "./skill-creator",
+        "./skill-share"
+      ]
+    }
+  ]
+}
