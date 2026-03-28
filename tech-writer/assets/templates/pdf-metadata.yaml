@@ -1,0 +1,28 @@
+# Tech Writer - Default PDF Metadata
+# Used with: pandoc --metadata-file=pdf-metadata.yaml
+# Override any value by passing -V key=value on the command line
+
+documentclass: article
+classoption:
+  - oneside
+fontsize: 11pt
+linestretch: 1.25
+geometry:
+  - margin=1in
+mainfont: "Latin Modern Roman"
+sansfont: "Latin Modern Sans"
+monofont: "Latin Modern Mono"
+colorlinks: true
+linkcolor: "NavyBlue"
+urlcolor: "NavyBlue"
+citecolor: "NavyBlue"
+toc-depth: 3
+numbersections: false
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyhead[L]{\leftmark}
+  - \fancyhead[R]{\thepage}
+  - \fancyfoot[C]{}
+  - \renewcommand{\headrulewidth}{0.4pt}

@@ -11,7 +11,7 @@ For more information, check out:
 
 # About This Repository
 
-This repository contains Luther Barnum's custom skills for Claude, focused on trading indicators and Python trading bots.
+This repository contains Luther Barnum's custom skills for Claude.
 
 **Included skills:**
 - **indicator-generator** - Create TradingView Pine Script and NinjaTrader indicators/strategies
@@ -20,13 +20,23 @@ This repository contains Luther Barnum's custom skills for Claude, focused on tr
 - **changelog-generator** - Create user-friendly changelogs from git commits
 - **skill-creator** - Create new Claude skills
 - **skill-share** - Share skills via Slack
+- **ship** - Full commit, push, and CI verification workflow
+- **fix-lint** - Fix lint errors and re-stage files after pre-commit hook failures
+- **tech-writer** - Industry-specific documentation with readability scoring and multi-format output
+- **dashpilot** - Chrome extension + MCP server for live read-only browser tab inspection
+- **recipe-creator** - Original recipes grounded in culinary science, world cuisines, and flavor pairing
+- **systems-design** - System design interview prep and architecture guide for DoD/Coast Guard IL2/IL4 on AWS GovCloud
+- **troubleshoot** - Deep diagnosis of trading bot issues via layered diagnostic methodology
 
 Each skill is self-contained in its own folder with a `SKILL.md` file containing the instructions and metadata that Claude uses.
 
 # Skill Sets
 
-- **Trading Skills**: indicator-generator, python-trading-bot, ci-cd-setup
-- **Utility Skills**: changelog-generator, skill-creator, skill-share
+- **Trading Skills**: indicator-generator, python-trading-bot, ci-cd-setup, troubleshoot
+- **Development Workflow**: ship, fix-lint, changelog-generator
+- **Documentation & Writing**: tech-writer, recipe-creator
+- **Architecture**: systems-design
+- **Tools & Meta**: skill-creator, skill-share, dashpilot
 
 # Try in Claude Code, Claude.ai, and the API
 

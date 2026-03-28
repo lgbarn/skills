@@ -5,8 +5,8 @@
     "email": "luther.barnum@gmail.com"
   },
   "metadata": {
-    "description": "Luther Barnum's agent skills for trading indicators and Python bots",
-    "version": "1.0.0"
+    "description": "Luther Barnum's agent skills for trading, development workflows, documentation, and architecture",
+    "version": "2.0.0"
   },
   "plugins": [
     {
@@ -17,18 +17,49 @@
       "skills": [
         "./indicator-generator",
         "./python-trading-bot",
-        "./ci-cd-setup"
+        "./ci-cd-setup",
+        "./troubleshoot"
       ]
     },
     {
-      "name": "utility-skills",
-      "description": "Utility skills for changelog generation, skill creation, and team sharing",
+      "name": "dev-workflow",
+      "description": "Development workflow automation: shipping code, fixing lint, and generating changelogs",
       "source": "./",
       "strict": false,
       "skills": [
-        "./changelog-generator",
+        "./ship",
+        "./fix-lint",
+        "./changelog-generator"
+      ]
+    },
+    {
+      "name": "documentation",
+      "description": "Industry-specific technical writing with readability scoring, plus culinary recipe creation",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./tech-writer",
+        "./recipe-creator"
+      ]
+    },
+    {
+      "name": "architecture",
+      "description": "System design interview prep and architecture guide for DoD IL2/IL4 on AWS GovCloud",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./systems-design"
+      ]
+    },
+    {
+      "name": "tools",
+      "description": "Skill creation, sharing, and browser inspection tools",
+      "source": "./",
+      "strict": false,
+      "skills": [
         "./skill-creator",
-        "./skill-share"
+        "./skill-share",
+        "./dashpilot"
       ]
     }
   ]
